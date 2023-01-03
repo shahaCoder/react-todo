@@ -9,7 +9,6 @@ import PageNotfound from '../Pages/PageNotfound';
 import { AuthContext } from '../Context/Context';
 import HolaPage from '../Pages/HolaPage';
 import Settings from '../Pages/Settings';
-import ModalEdit from './ModalEdit';
 const AllRouts = () => {
     const {isAuth} = useContext(AuthContext)
     return (

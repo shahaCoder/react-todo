@@ -17,7 +17,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import { Link, NavLink, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 import { MdDelete } from 'react-icons/md'
 import { FaNotesMedical } from 'react-icons/fa'
 import { ImExit } from 'react-icons/im'
@@ -25,7 +25,6 @@ import { BiSupport } from 'react-icons/bi'
 import { CgProfile } from 'react-icons/cg'
 import { AuthContext } from '../Context/Context';
 import LogOutModal from '../components/LogOutModal';
-import { TextField } from '@mui/material';
 import SearchComp from '../components/SearchComp';
 
 const drawerWidth = 240;

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState } from 'react';
 import moment from 'moment';
 import { MdDeleteOutline } from 'react-icons/md'
 import { BiEditAlt } from 'react-icons/bi'
@@ -11,7 +11,6 @@ const Childs = ({i}) => {
     const url2 = 'http://localhost:3001/deletedTasks'
     const [open, setOpen] = useState(false) 
     const [openModal, setOpenModal] = useState(false);
-    const [checked, setChecked] = useState(false)
 
   const handleClickOpen = () => {
     setOpenModal(true);

@@ -1,5 +1,5 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { GiReturnArrow } from 'react-icons/gi'
 import { RiDeleteBin5Fill } from 'react-icons/ri'
 import ModalDelete2 from './ModalDelete2';
