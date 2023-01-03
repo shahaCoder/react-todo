@@ -50,6 +50,8 @@ const HomePage = () => {
     const filtered = post?.filter(i => {
       if(i.taskTitle.toLowerCase().includes(value2.toLowerCase())){
           return i.taskTitle
+      } else {
+        return null
       }
   })
     return (

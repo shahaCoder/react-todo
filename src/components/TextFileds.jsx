@@ -4,8 +4,7 @@ import { Button, FormControl, IconButton, InputAdornment, InputLabel, OutlinedIn
 import { v4 as uuidv4 } from 'uuid';
 import { MdVisibilityOff } from 'react-icons/md';
 import Visibility from '@mui/icons-material/Visibility';
-import { useState } from 'react';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 
 export default function TextFileds({setIsAuth}) {
@@ -86,7 +85,7 @@ export default function TextFileds({setIsAuth}) {
             if(!password){
               setDis(true)
             }
-          });
+          }, [name, email, password, nameError, emailError, passwordError]);
      function getData(e) {
       e.preventDefault()
       let obj = {

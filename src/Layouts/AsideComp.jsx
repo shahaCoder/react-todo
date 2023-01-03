@@ -85,7 +85,7 @@ export default function PersistentDrawerLeft() {
   };
   const theme = useTheme();
   const [open, setOpen] = useState(false);
-  const { getdata, setIsAuth } = useContext(AuthContext)
+  const { getdata } = useContext(AuthContext)
   const handleDrawerOpen = () => {
     setOpen(true);
   };

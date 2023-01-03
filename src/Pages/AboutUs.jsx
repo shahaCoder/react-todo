@@ -16,7 +16,7 @@ const AboutUs = () => {
             </div>
 
             <div className="map-block">
-            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab91c45cf5b1bec1bb10c3e40ea1eeadc9cfa4467269b89fc7dfac822ee62dd1c&amp;source=constructor" width="1050" height="400" frameborder="0"></iframe>
+            <iframe title='myframe' src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab91c45cf5b1bec1bb10c3e40ea1eeadc9cfa4467269b89fc7dfac822ee62dd1c&amp;source=constructor" width="1050" height="400" frameborder="0"></iframe>
             </div>
         </div>
     );

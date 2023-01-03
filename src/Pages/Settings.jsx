@@ -86,7 +86,7 @@ const Settings = () => {
         if(!password){
           setDis(true)
         }
-      });
+      }, [name, email, password, nameError, emailError, passwordError]);
  function getData2(e) {
   e.preventDefault()
   let obj = {
@@ -227,7 +227,7 @@ const Settings = () => {
         {(passwordOut && passwordError) && <p className='invalid-text' style={{color: 'red'}}>{passwordError}</p>}
                     {/* </div> */}
                 </div>
-                <Button variant='contained' type='onsubmit' sx={{width: '435px'}}>Save</Button>
+                <Button variant='contained' type='onsubmit' disabled={dis} sx={{width: '435px'}}>Save</Button>
                 </form>
             </div>
         </div>
