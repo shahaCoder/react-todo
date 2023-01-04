@@ -6,9 +6,12 @@ function App() {
   const [isAuth, setIsAuth] = useState(false)
   const [value2, setValue2] = useState('')
   const getdata = JSON.parse(localStorage.getItem('register-data'));
+  
   useEffect(() => {
     getdata != null ? setIsAuth(true) : setIsAuth(false)  
-  }, [getdata]); 
+  }, []); 
+
+
   return (
     <div className="App">
       <AuthContext.Provider value={{

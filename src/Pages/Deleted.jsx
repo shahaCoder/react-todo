@@ -7,8 +7,13 @@ import { Alert } from '@mui/material';
 const Deleted = () => {
     const [data2, setData2] = useState(null)
     const url = 'http://localhost:3001/deletedTasks'
-    axios.get(url)
-     .then(res => setData2(res.data))
+    
+    useEffect(() => {
+        axios.get(url)
+         .then(res => setData2(res.data))
+    }, []);
+
+
     return (
         <div>
                 <Helmet>
