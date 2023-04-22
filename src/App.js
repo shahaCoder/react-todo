@@ -9,7 +9,7 @@ function App() {
   
   useEffect(() => {
     getdata != null ? setIsAuth(true) : setIsAuth(false)  
-  }, []); 
+  }, [getdata]); 
 
 
   return (

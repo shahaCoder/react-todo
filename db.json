@@ -1,5 +1,14 @@
 {
-  "data": [
+  "data": [],
+  "deletedTasks": [
+    {
+      "id": "10f21fff-a1c6-4c33-a228-931b4da4c4b7",
+      "taskTitle": "shoxa"
+    },
+    {
+      "id": "46640b6a-b2a3-4ed2-a0c0-8cdcacdfe61f",
+      "taskTitle": "aaa"
+    },
     {
       "id": "06d4fae3-8891-44de-9e9e-ea9e28c5465f",
       "taskTitle": "bye bye"
@@ -15,16 +24,6 @@
     {
       "id": "cb88b79a-e82a-40e6-bc80-0fec10d52c83",
       "taskTitle": "dsadasdasdasd"
-    }
-  ],
-  "deletedTasks": [
-    {
-      "id": "10f21fff-a1c6-4c33-a228-931b4da4c4b7",
-      "taskTitle": "shoxa"
-    },
-    {
-      "id": "46640b6a-b2a3-4ed2-a0c0-8cdcacdfe61f",
-      "taskTitle": "aaa"
     }
   ]
 }

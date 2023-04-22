@@ -40,13 +40,6 @@ const HomePage = () => {
        setValue('')
     }
     const { value2 } = useContext(AuthContext)
-
-    useEffect(() => {
-        axios.get(url)
-         .then(res => {
-            setPost(res.data)
-         })
-    }, []);
     const filtered = post?.filter(i => {
       if(i.taskTitle.toLowerCase().includes(value2.toLowerCase())){
           return i.taskTitle
@@ -54,6 +47,13 @@ const HomePage = () => {
         return null
       }
   })
+    useEffect(() => {
+        axios.get(url)
+         .then(res => {
+            setPost(res.data)
+         })
+    }, []);
+    
     return (
         <div>
                     <Helmet>
